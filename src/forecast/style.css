@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+
+
+.dayForecast {
+  width: 8rem;
+  background-color: #296bb0;
+  margin: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #444;
+}
+
+.dayForecast__header {
+  background-color: #fb542d;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.dayForecast__body {
+  padding: 0.5rem;
+}
+
+.dayForecast__image {
+  width: 7rem;
+  height: 7.5rem;
+  background-size: contain;
+}
+
+.weather-cloudy {
+  background-image: url('./img/cloudy.png');
+}
+
+.weather-partly-cloudy {
+  background-image: url('./img/partly-cloudy.png');
+}
+
+.weather-rainy {
+  background-image: url('img/rainy.png');
+}
+
+.weather-snowy {
+  background-image: url('img/snowy.png');
+}
+
+.weather-stormy {
+  background-image: url('img/stormy.png');
+}
+
+.weather-stormy-rain {
+  background-image: url('img/stormy-rain.png');
+}
+
+.weather-sunny {
+  background-image: url('img/sunny.png');
+}
+
+.dayForecast__temps {
+  display: flex;
+  justify-content: space-between;
+  font-size: 150%;
+  text-align: center;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+.tempDay {
+  color: #fbdb76;
+}
+
+.tempNight {
+  color: black;
+}
+
+.itemsTwo {
+  display: flex;
+  height: 15rem;
+}
+
+
